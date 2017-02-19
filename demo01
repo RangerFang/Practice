@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
+		System.out.println("请输入考试分数");
+		int score=input.nextInt();
+		int count=0;
+		System.out.println("加分前的分数为"+score);
+		while(score<60){
+			score++;
+			count++;
+		}
+		System.out.println("加分后的分数为"+score);
+		System.out.println("加分次数为"+count);
+	}
+
+}
